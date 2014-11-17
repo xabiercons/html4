@@ -116,11 +116,12 @@ img { border: none; }
 /*--El fondo del elemento #menu se construye mediante una pequeña imagen llamada fondo_menu.gif--*/
 #menu {
     background-image: url("fondo_menu.gif");
+    background-repeat: repeat-x;
 }
 /*--El logotipo del sitio se muestra mediante una imagen de fondo del elemento <h1> contenido en el elemento #cabecera (la imagen se llama logo.gif)--*/
 #cabecera #logo h1 {
     background-image: url("logo.gif");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
 }
 #cabecera #logo h1 span {
