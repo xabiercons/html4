@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//Dth HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dth">
+<html>
+	<head>
+		<title>Horario</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <style>
+            /*--Este estilo dalle o valor arial a todo o texto da páxina--*/
+            body {
+                font-family: arial;
+            }
+            /*--Este estilo é para a táboa do titulo do horario--*/
+            table.titulo_horario {
+                border: transparent;
+                margin: 0 auto;
+                width: 50%;
+            }
+            /*--con esta regla damos tamaño e estilo de borde á táboa--*/
+            table.horario {
+                border-collapse: collapse;
+                border: solid 1px #000;
+                margin: 0 auto;
+                width: 50%;
+            }
+            /*--con esta regla damos o estilo de borde dos td, th e tr--*/
+            table.horario td,th,tr {
+                border: solid 1px #000
+            }
+            /*--estilos das cores de fondo dos módulos--*/
+            .contornos {
+                background-color: #F2DBDB;
+            }
+            .programacion {
+                background-color: #EAF1DD;
+            }
+            .bd {
+                background-color: #DAEEF3;
+            }
+            .fol {
+                background-color: #FDE9D9;
+            }
+            .LMSXI {
+                background-color: #FABF8F;
+            }
+            .sistemas {
+                background-color: #E5DFEC;
+            }
+            /*--esta regla define os estilos da táboa de módulos--*/
+            #modulos {
+                border-collapse: collapse;
+                border: solid 1px #DFE7F5;
+                margin: 0 auto;
+                width: 50%;
+            }
+            #modulos th, .th_abrev {
+               background-color: #E6E6E6;
+            }
+            .th_modulo, .td_modulo{
+                text-align: left;
+            }
+            .td_abrev {
+                border: solid 1px #DFE7F5;
+                color: #DFE7F5;
+                text-align: center;
+            }
+
+
+        </style>
+	</head>
+	<body>
+        <p>&nbsp;</p>
+        <table class="titulo_horario">
+            <tr>
+                <td><strong>2014-15</strong></td>
+            </tr>
+            <tr>
+                <td style="font-size:22px"><strong>CURSO:</strong></td>
+                <td style="font-size:22px;color:Red"><strong>DAW MODULOS 1º ANO</strong></td>
+                <td style="font-size:22px">Titor: Mª Luz Iglesias</td>
+                <td style="font-size:22px"><strong>AULA 11</strong></td>
+
+            </tr>
+        </table>
+        <table class="horario">
+            <tr>
+                <th></th>
+                <th>LUNS</th>
+                <th>MARTES</th>
+                <th>MERCORES</th>
+                <th>XOVES</th>
+                <th>VENRES</th>
+            </tr>
+            <tr>
+            <tr>
+                <td>16,20<br>17,10</td>
+                <td class="contornos" rowspan="3">CD<br/>Olga Cuervo</td>
+                <td class="programacion" rowspan="4">PROG<BR/>José Taboada</td>
+                <td class="programacion" rowspan="4">PROG<BR/>José Taboada</td>
+                <td class="contornos" rowspan="3">CD<br/>Olga Cuervo</td>
+                <td class="programacion" rowspan="4">PROG<BR/>José Taboada</td>
+            </tr>
+            <tr>
+            <tr>
+                <td>17,10<br>18,00</td>
+            </tr>
+            <tr>
+                <td>18,00<br>18,50</td>
+                <td class="bd" rowspan="2">BD<br/>Olga Cuervo</td>
+                <td class="bd" rowspan="3">BD<br/>Olga Cuervo</td>
+            </tr>
+            <tr>
+                <td>18,50<br>19,40</td>
+                <td class="fol" rowspan="2">FOL<br/>Mº Luz Iglesias</td>
+                <td class="bd" rowspan="2">BD<br/>Olga Cuervo</td>
+                <td class="fol" rowspan="2">FOL<br/>Mº Luz Iglesias</td>
+            </tr>
+            <tr>
+                <td>19,40<br>20,30</td>
+                <td class="LMSXI" rowspan="3">LMSXI<br/>Gerardo Otero</td>
+            </tr>
+            <tr>
+                <td>20,30<br>21,20</td>
+                <td class="sistemas" rowspan="2">SIST<br/>Ramón Trincado</td>
+                <td class="sistemas" rowspan="3">SIST<br/>Ramón Trincado</td>
+                <td class="sistemas" rowspan="2">SIST<br/>Ramón Trincado</td>
+                <td class="LMSXI" rowspan="2">LMSXI<br/>Gerardo Otero</td>
+            </tr>
+            <tr>
+                <td>21,20<br>22,10</td>
+            </tr>
+            <tr>
+                <td>22,10<br>23,00</td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+        <p>&nbsp;</p>
+        <table id="modulos">
+            <tr>
+                <th class="th_modulo">Módulo</th>
+                <th class="th_abrev">Abrev</th>
+            </tr>
+            <tr>
+                <td class="td_modulo">Linguaxes de Marcas e Sist. de Xestión de Información</td>
+                <td class="td_abrev"><b>LMSXI</b></td>
+            </tr>
+            <tr>
+                <td class="td_modulo" align="left">Bases de Datos</td>
+                <td class="td_abrev"><b>BD</b></td>
+            </tr>
+            <tr>
+                <td class="td_modulo">Programación</td>
+                <td class="td_abrev"><b>PROG</b></td>
+            </tr>
+            <tr>
+                <td class="td_modulo">Contornos de Desenvolvemento</td>
+                <td class="td_abrev"><b>CD</b></td>
+            </tr>
+            <tr>
+                <td class="td_modulo">Formación e orientación laboral</td>
+                <td class="td_abrev"><b>FOL</b></td>
+            </tr>
+        </table>
+	</body>
+</html>
